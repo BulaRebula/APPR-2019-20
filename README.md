@@ -5,10 +5,21 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 * [![Shiny](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/jaanos/APPR-2019-20/master?urlpath=shiny/APPR-2019-20/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/jaanos/APPR-2019-20/master?urlpath=rstudio) RStudio
 
-## Tematika
+## Povezava med razvitostjo evropskih držav in zadovoljstvom njihovih državljanov
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+Pri Makroekonomiji smo se posvetili raziskovanju gospodarske razvitosti držav. Mene zanima ali obstaja direktna povezava med razvitostjo države ter zadovoljstvom oz. srečo njenih prebivalcev. Posebej bom obdelal ekonomske spremenljivke v državi in jih potem združil s tabelami, kjer so prebivalci držav ocenili svojo srečo in zadovoljstvo z življenjem. Analiziral bom evropske države in primerjal tudi s povprečjem Evropske unije. Vključil bom tudi primerjavo s stopnjo brezposelnosti v državi.
+
+Večino podatkov bom pridobil na strani Eurostat (https://ec.europa.eu/eurostat), kjer so podatki dosegljivi v formatih XLS, CSV in HTML.
+Imena tabel, ki jih bom uporabil:
+* Percentage of the population rating their satisfaction as high, medium or low by domain, sex, age and educational attainment level.(Ocena zadovoljstva z življenjem, kjer je merilo zelo, srednje in nezadovoljno, različne starostne skupine in razdeljeno po spolih ter izobrazbi)
+* Average rating of satisfaction by domain, sex, age and educational attainment level.
+(Ocena zadovoljstva z življenjem 1-10, različne starostne skupine in razdeljeno po spolu ter izobrazbi)
+* Gross domestic product at market prices.
+(nominalni BDP in nominalni BDP na prebivalca)
+* Real GDP per capita.
+(realni BDP z osnovo 2010, realna sprememba BDP glede na prejšnje leto)
+* Total unemployment rate.
+(Brezposelnost v procentih glede na vso prebivalstvo in aktivno prebivalstvo)
 
 ## Program
 
