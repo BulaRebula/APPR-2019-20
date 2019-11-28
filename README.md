@@ -20,6 +20,7 @@ Imena tabel, ki jih bom uporabil:
 (realni BDP z osnovo 2010, realna sprememba BDP glede na prejšnje leto, letno)
 * Total unemployment rate. 
 (Brezposelnost v procentih glede na vso prebivalstvo in aktivno prebivalstvo, letno)
+* Life Satisfaction in Detail by Country (HTML) (http://www.oecdbetterlifeindex.org/topics/life-satisfaction/)
 
 ## Program
 
