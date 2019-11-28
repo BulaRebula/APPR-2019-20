@@ -7,7 +7,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 ## Povezava med razvitostjo evropskih držav in zadovoljstvom njihovih državljanov
 
-Pri Makroekonomiji smo se posvetili raziskovanju gospodarske razvitosti držav. Mene zanima ali obstaja direktna povezava med razvitostjo države ter zadovoljstvom oz. srečo njenih prebivalcev. Posebej bom obdelal ekonomske spremenljivke v državi in jih potem združil s tabelami, kjer so prebivalci držav ocenili svojo srečo in zadovoljstvo z življenjem. Analiziral bom evropske države in primerjal tudi s povprečjem Evropske unije. Vključil bom tudi primerjavo s stopnjo brezposelnosti v državi.
+Analiziral bom povezavo med razvitostjo države ter zadovoljstvom oz. srečo njenih prebivalcev. Posebej bom obdelal ekonomske spremenljivke v državi in jih potem združil s tabelami, kjer so prebivalci držav ocenili svojo srečo in zadovoljstvo z življenjem. Analiziral bom evropske države in primerjal tudi s povprečjem Evropske unije. Vključil bom tudi primerjavo s stopnjo brezposelnosti v državi.
 
 Večino podatkov bom pridobil na strani Eurostat (https://ec.europa.eu/eurostat), kjer so podatki dosegljivi v formatih XLS, CSV in HTML.
 Imena tabel, ki jih bom uporabil:
