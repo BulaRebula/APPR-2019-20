@@ -1,0 +1,2525 @@
+Average rating of satisfaction by domain, sex, age and educational attainment level [ilc_pw01];
+;
+Last update;29.11.19
+Extracted on;05.12.19
+Source of data;Eurostat
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;5,8
+Czechia;7,7
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;7,2
+Ireland;7,7
+Greece;7,0
+Spain;7,4
+France;7,7
+Croatia;7,5
+Italy;7,1
+Cyprus;6,9
+Latvia;7,3
+Lithuania;7,8
+Luxembourg;7,8
+Hungary;7,0
+Malta;7,6
+Netherlands;7,9
+Austria;8,4
+Poland;8,1
+Portugal;7,5
+Romania;8,0
+Slovenia;7,8
+Slovakia;7,6
+Finland;8,2
+Sweden;7,9
+United Kingdom;7,5
+Iceland;8,2
+Norway;8,0
+Switzerland;8,1
+Serbia;6,1
+Turkey;6,1
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,8
+Belgium;7,8
+Bulgaria;6,3
+Czechia;8,2
+Denmark;7,6
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;7,8
+Ireland;8,2
+Greece;7,2
+Spain;7,9
+France;7,9
+Croatia;7,8
+Italy;7,6
+Cyprus;7,7
+Latvia;7,5
+Lithuania;7,4
+Luxembourg;7,7
+Hungary;7,3
+Malta;7,6
+Netherlands;7,7
+Austria;8,4
+Poland;8,2
+Portugal;7,9
+Romania;8,2
+Slovenia;8,2
+Slovakia;7,9
+Finland;8,2
+Sweden;7,9
+United Kingdom;7,5
+Iceland;:
+Norway;8,0
+Switzerland;8,1
+Serbia;6,8
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;16 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,0
+Belgium;7,6
+Bulgaria;4,8
+Czechia;6,9
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;6,5
+Ireland;7,4
+Greece;6,2
+Spain;6,9
+France;7,1
+Croatia;6,3
+Italy;6,7
+Cyprus;6,2
+Latvia;6,5
+Lithuania;6,7
+Luxembourg;7,5
+Hungary;6,1
+Malta;7,1
+Netherlands;7,8
+Austria;7,8
+Poland;7,3
+Portugal;6,2
+Romania;7,1
+Slovenia;7,0
+Slovakia;7,0
+Finland;8,0
+Sweden;7,9
+United Kingdom;7,3
+Iceland;7,9
+Norway;7,9
+Switzerland;8,0
+Serbia;4,9
+Turkey;5,7
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;16 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,3
+Belgium;7,6
+Bulgaria;5,4
+Czechia;7,4
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,4
+Estonia;7,0
+Ireland;8,1
+Greece;6,4
+Spain;7,3
+France;7,3
+Croatia;6,3
+Italy;7,1
+Cyprus;7,1
+Latvia;6,7
+Lithuania;6,4
+Luxembourg;7,6
+Hungary;6,5
+Malta;7,5
+Netherlands;7,7
+Austria;8,0
+Poland;7,8
+Portugal;6,7
+Romania;7,3
+Slovenia;7,3
+Slovakia;7,1
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,6
+Iceland;:
+Norway;8,0
+Switzerland;8,0
+Serbia;5,6
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,3
+Belgium;7,6
+Bulgaria;5,4
+Czechia;7,3
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;7,1
+Ireland;7,4
+Greece;6,4
+Spain;7,1
+France;7,3
+Croatia;7,2
+Italy;6,8
+Cyprus;6,4
+Latvia;7,0
+Lithuania;7,3
+Luxembourg;7,7
+Hungary;6,7
+Malta;7,4
+Netherlands;8,0
+Austria;8,1
+Poland;7,8
+Portugal;6,8
+Romania;7,5
+Slovenia;7,4
+Slovakia;7,4
+Finland;8,3
+Sweden;7,7
+United Kingdom;7,3
+Iceland;8,0
+Norway;7,8
+Switzerland;7,9
+Serbia;5,5
+Turkey;5,8
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;6,2
+Czechia;7,9
+Denmark;7,5
+Germany (until 1990 former territory of the FRG);7,5
+Estonia;7,5
+Ireland;8,3
+Greece;6,7
+Spain;7,6
+France;7,6
+Croatia;7,5
+Italy;7,4
+Cyprus;7,4
+Latvia;7,4
+Lithuania;7,2
+Luxembourg;7,6
+Hungary;7,2
+Malta;7,6
+Netherlands;7,7
+Austria;8,2
+Poland;8,1
+Portugal;7,5
+Romania;7,8
+Slovenia;7,8
+Slovakia;7,6
+Finland;8,0
+Sweden;7,6
+United Kingdom;7,6
+Iceland;:
+Norway;7,9
+Switzerland;7,8
+Serbia;6,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,0
+Belgium;7,6
+Bulgaria;4,9
+Czechia;7,0
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,5
+Ireland;7,2
+Greece;6,3
+Spain;6,9
+France;7,0
+Croatia;6,4
+Italy;6,8
+Cyprus;6,1
+Latvia;6,4
+Lithuania;6,7
+Luxembourg;7,4
+Hungary;6,2
+Malta;7,1
+Netherlands;7,6
+Austria;7,7
+Poland;7,4
+Portugal;6,3
+Romania;7,4
+Slovenia;7,1
+Slovakia;6,9
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,1
+Iceland;7,9
+Norway;7,8
+Switzerland;7,9
+Serbia;4,9
+Turkey;5,5
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,4
+Belgium;7,6
+Bulgaria;5,8
+Czechia;7,5
+Denmark;7,7
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;7,2
+Ireland;7,9
+Greece;6,6
+Spain;7,5
+France;7,3
+Croatia;7,0
+Italy;7,2
+Cyprus;7,2
+Latvia;7,0
+Lithuania;6,7
+Luxembourg;7,5
+Hungary;6,7
+Malta;7,6
+Netherlands;7,7
+Austria;8,1
+Poland;7,9
+Portugal;7,1
+Romania;7,6
+Slovenia;7,5
+Slovakia;7,2
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,4
+Iceland;:
+Norway;7,8
+Switzerland;7,7
+Serbia;5,6
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,9
+Belgium;7,5
+Bulgaria;4,6
+Czechia;6,6
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,0
+Estonia;5,9
+Ireland;7,3
+Greece;6,0
+Spain;6,7
+France;7,0
+Croatia;6,1
+Italy;6,6
+Cyprus;5,7
+Latvia;6,2
+Lithuania;6,3
+Luxembourg;7,3
+Hungary;5,7
+Malta;6,9
+Netherlands;7,7
+Austria;7,7
+Poland;7,0
+Portugal;5,7
+Romania;6,9
+Slovenia;6,6
+Slovakia;6,6
+Finland;8,0
+Sweden;7,8
+United Kingdom;7,1
+Iceland;7,8
+Norway;7,9
+Switzerland;8,0
+Serbia;4,6
+Turkey;5,5
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,2
+Belgium;7,5
+Bulgaria;5,2
+Czechia;7,2
+Denmark;7,6
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,7
+Ireland;8,0
+Greece;6,3
+Spain;7,1
+France;7,1
+Croatia;6,1
+Italy;7,0
+Cyprus;6,7
+Latvia;6,4
+Lithuania;6,0
+Luxembourg;7,4
+Hungary;6,3
+Malta;7,4
+Netherlands;7,6
+Austria;7,9
+Poland;7,5
+Portugal;6,4
+Romania;7,1
+Slovenia;6,9
+Slovakia;6,7
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,4
+Iceland;:
+Norway;8,0
+Switzerland;7,9
+Serbia;5,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,0
+Belgium;7,5
+Bulgaria;4,3
+Czechia;6,6
+Denmark;8,6
+Germany (until 1990 former territory of the FRG);7,4
+Estonia;6,1
+Ireland;8,0
+Greece;5,9
+Spain;6,9
+France;7,0
+Croatia;6,0
+Italy;6,4
+Cyprus;6,1
+Latvia;6,1
+Lithuania;6,5
+Luxembourg;7,4
+Hungary;5,9
+Malta;7,1
+Netherlands;7,9
+Austria;7,7
+Poland;6,9
+Portugal;5,9
+Romania;6,7
+Slovenia;6,6
+Slovakia;6,7
+Finland;8,0
+Sweden;8,3
+United Kingdom;7,7
+Iceland;7,9
+Norway;8,1
+Switzerland;8,4
+Serbia;4,8
+Turkey;5,7
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,2
+Belgium;7,6
+Bulgaria;4,8
+Czechia;7,1
+Denmark;8,2
+Germany (until 1990 former territory of the FRG);7,4
+Estonia;6,6
+Ireland;8,3
+Greece;6,3
+Spain;7,2
+France;7,1
+Croatia;5,9
+Italy;6,9
+Cyprus;6,9
+Latvia;6,5
+Lithuania;5,8
+Luxembourg;7,8
+Hungary;6,1
+Malta;7,4
+Netherlands;7,9
+Austria;7,9
+Poland;7,5
+Portugal;6,3
+Romania;6,9
+Slovenia;6,8
+Slovakia;6,5
+Finland;8,3
+Sweden;8,1
+United Kingdom;8,0
+Iceland;:
+Norway;8,2
+Switzerland;8,4
+Serbia;5,3
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;75 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,8
+Belgium;7,4
+Bulgaria;3,8
+Czechia;6,5
+Denmark;8,3
+Germany (until 1990 former territory of the FRG);7,5
+Estonia;6,0
+Ireland;7,8
+Greece;5,5
+Spain;6,4
+France;6,7
+Croatia;6,0
+Italy;6,3
+Cyprus;6,0
+Latvia;6,0
+Lithuania;6,1
+Luxembourg;7,3
+Hungary;5,6
+Malta;7,0
+Netherlands;7,9
+Austria;7,6
+Poland;6,9
+Portugal;5,6
+Romania;6,1
+Slovenia;6,4
+Slovakia;6,1
+Finland;7,7
+Sweden;8,1
+United Kingdom;7,5
+Iceland;8,1
+Norway;7,9
+Switzerland;8,4
+Serbia;4,6
+Turkey;5,5
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;All ISCED 2011 levels 
+AGE;75 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,9
+Belgium;7,4
+Bulgaria;4,1
+Czechia;6,7
+Denmark;8,1
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,5
+Ireland;8,0
+Greece;5,9
+Spain;6,7
+France;6,8
+Croatia;5,3
+Italy;6,6
+Cyprus;6,7
+Latvia;6,1
+Lithuania;5,8
+Luxembourg;7,5
+Hungary;5,6
+Malta;7,3
+Netherlands;7,7
+Austria;7,6
+Poland;7,3
+Portugal;5,8
+Romania;6,3
+Slovenia;6,6
+Slovakia;5,9
+Finland;7,9
+Sweden;7,8
+United Kingdom;7,9
+Iceland;:
+Norway;8,1
+Switzerland;8,3
+Serbia;5,0
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,6
+Bulgaria;5,3
+Czechia;7,6
+Denmark;8,2
+Germany (until 1990 former territory of the FRG);7,5
+Estonia;7,2
+Ireland;7,3
+Greece;7,0
+Spain;7,2
+France;7,7
+Croatia;7,6
+Italy;7,0
+Cyprus;7,2
+Latvia;7,2
+Lithuania;8,1
+Luxembourg;7,8
+Hungary;6,9
+Malta;7,5
+Netherlands;7,7
+Austria;8,2
+Poland;8,1
+Portugal;7,5
+Romania;8,0
+Slovenia;7,5
+Slovakia;7,8
+Finland;8,3
+Sweden;7,9
+United Kingdom;6,8
+Iceland;8,1
+Norway;8,0
+Switzerland;8,3
+Serbia;6,3
+Turkey;6,2
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,7
+Belgium;7,8
+Bulgaria;6,1
+Czechia;8,2
+Denmark;7,4
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;7,9
+Ireland;8,3
+Greece;7,3
+Spain;7,6
+France;7,9
+Croatia;7,6
+Italy;7,5
+Cyprus;7,6
+Latvia;7,5
+Lithuania;7,6
+Luxembourg;7,6
+Hungary;7,3
+Malta;7,1
+Netherlands;7,7
+Austria;8,2
+Poland;8,3
+Portugal;8,0
+Romania;8,0
+Slovenia;8,4
+Slovakia;8,0
+Finland;8,3
+Sweden;8,0
+United Kingdom;7,1
+Iceland;:
+Norway;8,1
+Switzerland;8,1
+Serbia;6,9
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;16 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,3
+Bulgaria;3,8
+Czechia;6,5
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);6,9
+Estonia;6,3
+Ireland;7,3
+Greece;5,7
+Spain;6,6
+France;6,7
+Croatia;5,7
+Italy;6,3
+Cyprus;5,7
+Latvia;6,2
+Lithuania;6,4
+Luxembourg;7,1
+Hungary;5,4
+Malta;6,8
+Netherlands;7,7
+Austria;7,4
+Poland;6,9
+Portugal;5,9
+Romania;6,7
+Slovenia;6,3
+Slovakia;6,7
+Finland;7,8
+Sweden;7,9
+United Kingdom;7,0
+Iceland;7,9
+Norway;7,8
+Switzerland;7,9
+Serbia;4,4
+Turkey;5,6
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;16 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,9
+Belgium;7,2
+Bulgaria;4,3
+Czechia;6,8
+Denmark;7,7
+Germany (until 1990 former territory of the FRG);6,9
+Estonia;6,7
+Ireland;7,9
+Greece;6,1
+Spain;6,9
+France;6,9
+Croatia;5,3
+Italy;6,6
+Cyprus;6,6
+Latvia;6,3
+Lithuania;5,4
+Luxembourg;7,2
+Hungary;5,8
+Malta;7,3
+Netherlands;7,6
+Austria;7,5
+Poland;7,4
+Portugal;6,2
+Romania;6,7
+Slovenia;6,6
+Slovakia;6,4
+Finland;8,0
+Sweden;7,8
+United Kingdom;7,4
+Iceland;:
+Norway;7,9
+Switzerland;7,6
+Serbia;4,9
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;6,7
+Bulgaria;3,8
+Czechia;5,6
+Denmark;5,7
+Germany (until 1990 former territory of the FRG);6,7
+Estonia;6,0
+Ireland;6,7
+Greece;5,8
+Spain;6,8
+France;6,6
+Croatia;5,9
+Italy;6,2
+Cyprus;5,5
+Latvia;6,2
+Lithuania;6,3
+Luxembourg;6,9
+Hungary;5,3
+Malta;7,0
+Netherlands;7,7
+Austria;7,1
+Poland;7,1
+Portugal;6,5
+Romania;6,9
+Slovenia;6,4
+Slovakia;4,9
+Finland;8,1
+Sweden;7,4
+United Kingdom;6,2
+Iceland;7,8
+Norway;7,5
+Switzerland;6,7
+Serbia;4,6
+Turkey;5,5
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,8
+Belgium;7,1
+Bulgaria;4,9
+Czechia;6,4
+Denmark;7,2
+Germany (until 1990 former territory of the FRG);6,3
+Estonia;7,0
+Ireland;8,0
+Greece;6,0
+Spain;7,0
+France;7,2
+Croatia;5,9
+Italy;6,6
+Cyprus;6,4
+Latvia;6,9
+Lithuania;4,9
+Luxembourg;7,0
+Hungary;6,1
+Malta;7,4
+Netherlands;7,7
+Austria;7,6
+Poland;7,2
+Portugal;7,1
+Romania;6,9
+Slovenia;6,9
+Slovakia;5,9
+Finland;7,5
+Sweden;7,3
+United Kingdom;7,3
+Iceland;:
+Norway;7,7
+Switzerland;7,0
+Serbia;5,3
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,0
+Bulgaria;3,5
+Czechia;5,7
+Denmark;7,0
+Germany (until 1990 former territory of the FRG);6,3
+Estonia;5,9
+Ireland;6,7
+Greece;5,7
+Spain;6,5
+France;6,6
+Croatia;5,7
+Italy;6,4
+Cyprus;5,4
+Latvia;5,7
+Lithuania;5,5
+Luxembourg;6,9
+Hungary;4,9
+Malta;6,7
+Netherlands;7,3
+Austria;6,9
+Poland;6,7
+Portugal;5,9
+Romania;6,8
+Slovenia;6,4
+Slovakia;5,1
+Finland;7,5
+Sweden;7,5
+United Kingdom;6,3
+Iceland;7,6
+Norway;7,4
+Switzerland;7,3
+Serbia;3,9
+Turkey;5,4
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,7
+Belgium;6,8
+Bulgaria;4,2
+Czechia;6,0
+Denmark;7,4
+Germany (until 1990 former territory of the FRG);6,1
+Estonia;6,4
+Ireland;7,4
+Greece;5,9
+Spain;7,1
+France;7,0
+Croatia;6,1
+Italy;6,6
+Cyprus;6,5
+Latvia;6,1
+Lithuania;4,8
+Luxembourg;7,1
+Hungary;5,5
+Malta;7,3
+Netherlands;7,4
+Austria;7,3
+Poland;7,5
+Portugal;6,6
+Romania;6,8
+Slovenia;6,8
+Slovakia;4,8
+Finland;7,7
+Sweden;7,4
+United Kingdom;7,0
+Iceland;:
+Norway;7,4
+Switzerland;6,7
+Serbia;4,7
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,2
+Bulgaria;3,4
+Czechia;5,8
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);6,4
+Estonia;5,7
+Ireland;7,2
+Greece;5,7
+Spain;6,4
+France;6,7
+Croatia;5,4
+Italy;6,2
+Cyprus;5,3
+Latvia;5,8
+Lithuania;5,5
+Luxembourg;7,0
+Hungary;4,8
+Malta;6,7
+Netherlands;7,7
+Austria;7,0
+Poland;6,5
+Portugal;5,5
+Romania;6,5
+Slovenia;5,7
+Slovakia;6,0
+Finland;7,8
+Sweden;7,6
+United Kingdom;6,6
+Iceland;7,6
+Norway;7,7
+Switzerland;7,7
+Serbia;4,0
+Turkey;5,6
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,7
+Belgium;7,2
+Bulgaria;3,8
+Czechia;5,8
+Denmark;7,6
+Germany (until 1990 former territory of the FRG);6,6
+Estonia;6,0
+Ireland;7,8
+Greece;6,0
+Spain;6,8
+France;6,9
+Croatia;5,1
+Italy;6,5
+Cyprus;6,4
+Latvia;5,7
+Lithuania;4,3
+Luxembourg;7,0
+Hungary;5,3
+Malta;7,2
+Netherlands;7,3
+Austria;6,9
+Poland;6,9
+Portugal;6,1
+Romania;6,5
+Slovenia;6,1
+Slovakia;5,5
+Finland;7,8
+Sweden;7,7
+United Kingdom;7,1
+Iceland;:
+Norway;7,9
+Switzerland;7,3
+Serbia;4,6
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,4
+Bulgaria;3,8
+Czechia;6,4
+Denmark;8,6
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;5,8
+Ireland;7,9
+Greece;5,6
+Spain;6,7
+France;6,8
+Croatia;5,6
+Italy;6,3
+Cyprus;5,6
+Latvia;5,8
+Lithuania;6,3
+Luxembourg;7,0
+Hungary;5,5
+Malta;7,0
+Netherlands;7,9
+Austria;7,4
+Poland;6,8
+Portugal;5,9
+Romania;6,4
+Slovenia;6,0
+Slovakia;6,4
+Finland;8,0
+Sweden;8,5
+United Kingdom;7,4
+Iceland;7,9
+Norway;8,1
+Switzerland;8,2
+Serbia;4,3
+Turkey;5,9
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,9
+Belgium;7,3
+Bulgaria;4,1
+Czechia;6,5
+Denmark;8,2
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;6,0
+Ireland;8,1
+Greece;6,1
+Spain;7,0
+France;6,9
+Croatia;5,4
+Italy;6,7
+Cyprus;6,5
+Latvia;6,1
+Lithuania;5,2
+Luxembourg;7,6
+Hungary;5,5
+Malta;7,4
+Netherlands;7,8
+Austria;7,5
+Poland;7,2
+Portugal;6,1
+Romania;6,5
+Slovenia;6,1
+Slovakia;5,9
+Finland;8,2
+Sweden;8,2
+United Kingdom;7,8
+Iceland;:
+Norway;7,9
+Switzerland;8,0
+Serbia;4,8
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;75 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,3
+Bulgaria;3,5
+Czechia;6,4
+Denmark;8,4
+Germany (until 1990 former territory of the FRG);7,0
+Estonia;6,0
+Ireland;7,6
+Greece;5,5
+Spain;6,4
+France;6,6
+Croatia;5,7
+Italy;6,2
+Cyprus;5,8
+Latvia;5,8
+Lithuania;5,9
+Luxembourg;7,0
+Hungary;5,3
+Malta;6,9
+Netherlands;7,8
+Austria;7,4
+Poland;6,7
+Portugal;5,6
+Romania;6,0
+Slovenia;5,8
+Slovakia;5,9
+Finland;7,6
+Sweden;8,1
+United Kingdom;7,4
+Iceland;8,3
+Norway;8,0
+Switzerland;8,4
+Serbia;4,3
+Turkey;5,8
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Less than primary, primary and lower secondary education (levels 0-2)
+AGE;75 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;6,7
+Belgium;7,2
+Bulgaria;3,7
+Czechia;6,4
+Denmark;8,3
+Germany (until 1990 former territory of the FRG);6,9
+Estonia;6,5
+Ireland;7,9
+Greece;5,9
+Spain;6,6
+France;6,7
+Croatia;4,8
+Italy;6,4
+Cyprus;6,4
+Latvia;5,8
+Lithuania;5,3
+Luxembourg;7,5
+Hungary;5,2
+Malta;7,3
+Netherlands;7,6
+Austria;7,4
+Poland;7,0
+Portugal;5,7
+Romania;6,1
+Slovenia;5,9
+Slovakia;5,7
+Finland;7,9
+Sweden;7,7
+United Kingdom;7,9
+Iceland;:
+Norway;8,1
+Switzerland;8,0
+Serbia;4,5
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,9
+Bulgaria;6,0
+Czechia;7,7
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,8
+Estonia;7,2
+Ireland;7,9
+Greece;7,0
+Spain;7,6
+France;7,6
+Croatia;7,4
+Italy;7,1
+Cyprus;6,9
+Latvia;7,3
+Lithuania;7,5
+Luxembourg;7,8
+Hungary;7,1
+Malta;7,6
+Netherlands;8,0
+Austria;8,5
+Poland;8,0
+Portugal;7,5
+Romania;8,0
+Slovenia;7,9
+Slovakia;7,4
+Finland;8,2
+Sweden;7,9
+United Kingdom;7,6
+Iceland;8,4
+Norway;8,0
+Switzerland;8,0
+Serbia;6,0
+Turkey;6,3
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,8
+Belgium;7,9
+Bulgaria;6,5
+Czechia;8,2
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);7,8
+Estonia;7,8
+Ireland;8,2
+Greece;7,1
+Spain;8,1
+France;7,8
+Croatia;7,8
+Italy;7,6
+Cyprus;7,8
+Latvia;7,5
+Lithuania;7,4
+Luxembourg;7,5
+Hungary;7,3
+Malta;7,8
+Netherlands;7,7
+Austria;8,4
+Poland;8,2
+Portugal;7,9
+Romania;8,2
+Slovenia;8,1
+Slovakia;7,7
+Finland;8,2
+Sweden;7,7
+United Kingdom;7,5
+Iceland;:
+Norway;8,0
+Switzerland;8,1
+Serbia;6,7
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;16 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,6
+Bulgaria;4,9
+Czechia;6,9
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,3
+Ireland;7,4
+Greece;6,3
+Spain;7,1
+France;7,0
+Croatia;6,4
+Italy;6,9
+Cyprus;6,2
+Latvia;6,3
+Lithuania;6,4
+Luxembourg;7,6
+Hungary;6,1
+Malta;7,6
+Netherlands;7,8
+Austria;7,9
+Poland;7,2
+Portugal;6,7
+Romania;7,3
+Slovenia;6,9
+Slovakia;6,8
+Finland;8,0
+Sweden;7,9
+United Kingdom;7,2
+Iceland;7,9
+Norway;7,9
+Switzerland;8,0
+Serbia;5,0
+Turkey;5,9
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;16 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,4
+Belgium;7,5
+Bulgaria;5,4
+Czechia;7,4
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;6,8
+Ireland;8,0
+Greece;6,5
+Spain;7,5
+France;7,2
+Croatia;6,5
+Italy;7,4
+Cyprus;7,1
+Latvia;6,5
+Lithuania;6,0
+Luxembourg;7,6
+Hungary;6,5
+Malta;7,7
+Netherlands;7,7
+Austria;8,0
+Poland;7,7
+Portugal;7,3
+Romania;7,5
+Slovenia;7,2
+Slovakia;7,0
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,6
+Iceland;:
+Norway;8,0
+Switzerland;7,9
+Serbia;5,7
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,5
+Bulgaria;5,5
+Czechia;7,1
+Denmark;8,0
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,9
+Ireland;7,2
+Greece;6,3
+Spain;7,1
+France;7,2
+Croatia;7,0
+Italy;6,9
+Cyprus;6,2
+Latvia;6,9
+Lithuania;6,6
+Luxembourg;7,7
+Hungary;6,6
+Malta;7,7
+Netherlands;7,8
+Austria;8,1
+Poland;7,6
+Portugal;7,0
+Romania;7,6
+Slovenia;7,2
+Slovakia;7,3
+Finland;8,2
+Sweden;7,6
+United Kingdom;7,1
+Iceland;7,7
+Norway;7,9
+Switzerland;7,9
+Serbia;5,3
+Turkey;6,0
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;6,3
+Czechia;7,9
+Denmark;7,4
+Germany (until 1990 former territory of the FRG);7,5
+Estonia;7,3
+Ireland;8,2
+Greece;6,6
+Spain;7,6
+France;7,5
+Croatia;7,4
+Italy;7,5
+Cyprus;7,2
+Latvia;7,1
+Lithuania;6,7
+Luxembourg;7,6
+Hungary;7,1
+Malta;7,5
+Netherlands;7,5
+Austria;8,0
+Poland;8,0
+Portugal;7,6
+Romania;7,8
+Slovenia;7,5
+Slovakia;7,5
+Finland;8,0
+Sweden;7,5
+United Kingdom;7,5
+Iceland;:
+Norway;7,8
+Switzerland;7,7
+Serbia;6,1
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,6
+Bulgaria;4,9
+Czechia;6,9
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,1
+Estonia;6,2
+Ireland;7,1
+Greece;6,3
+Spain;7,1
+France;6,9
+Croatia;6,4
+Italy;6,8
+Cyprus;5,9
+Latvia;6,2
+Lithuania;6,4
+Luxembourg;7,4
+Hungary;6,1
+Malta;7,5
+Netherlands;7,6
+Austria;7,8
+Poland;7,3
+Portugal;6,6
+Romania;7,4
+Slovenia;6,9
+Slovakia;6,7
+Finland;8,0
+Sweden;7,8
+United Kingdom;6,9
+Iceland;7,9
+Norway;7,8
+Switzerland;7,9
+Serbia;4,8
+Turkey;5,7
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,4
+Belgium;7,4
+Bulgaria;5,7
+Czechia;7,4
+Denmark;7,7
+Germany (until 1990 former territory of the FRG);7,4
+Estonia;6,9
+Ireland;7,8
+Greece;6,5
+Spain;7,3
+France;7,1
+Croatia;6,8
+Italy;7,4
+Cyprus;7,0
+Latvia;6,8
+Lithuania;6,2
+Luxembourg;7,6
+Hungary;6,7
+Malta;7,7
+Netherlands;7,6
+Austria;8,1
+Poland;7,9
+Portugal;7,3
+Romania;7,6
+Slovenia;7,3
+Slovakia;7,1
+Finland;8,1
+Sweden;7,8
+United Kingdom;7,4
+Iceland;:
+Norway;7,9
+Switzerland;7,7
+Serbia;5,5
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,5
+Bulgaria;4,5
+Czechia;6,5
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,0
+Estonia;5,8
+Ireland;7,4
+Greece;6,0
+Spain;6,8
+France;7,0
+Croatia;6,2
+Italy;6,9
+Cyprus;5,8
+Latvia;6,0
+Lithuania;6,1
+Luxembourg;7,5
+Hungary;5,8
+Malta;7,5
+Netherlands;7,7
+Austria;7,7
+Poland;7,0
+Portugal;6,2
+Romania;7,0
+Slovenia;6,6
+Slovakia;6,5
+Finland;7,8
+Sweden;7,8
+United Kingdom;7,0
+Iceland;7,8
+Norway;8,0
+Switzerland;8,0
+Serbia;4,5
+Turkey;5,6
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,2
+Belgium;7,4
+Bulgaria;5,2
+Czechia;7,2
+Denmark;7,7
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,5
+Ireland;8,0
+Greece;6,2
+Spain;7,3
+France;7,1
+Croatia;6,3
+Italy;7,3
+Cyprus;6,7
+Latvia;6,2
+Lithuania;5,7
+Luxembourg;7,7
+Hungary;6,2
+Malta;7,7
+Netherlands;7,6
+Austria;8,0
+Poland;7,5
+Portugal;6,9
+Romania;7,3
+Slovenia;6,8
+Slovakia;6,7
+Finland;8,0
+Sweden;7,8
+United Kingdom;7,5
+Iceland;:
+Norway;8,1
+Switzerland;7,8
+Serbia;5,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,6
+Bulgaria;4,3
+Czechia;6,6
+Denmark;8,6
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;6,0
+Ireland;8,1
+Greece;6,1
+Spain;7,5
+France;7,1
+Croatia;6,1
+Italy;6,8
+Cyprus;6,7
+Latvia;6,1
+Lithuania;6,5
+Luxembourg;7,6
+Hungary;6,0
+Malta;7,7
+Netherlands;7,9
+Austria;7,7
+Poland;6,9
+Portugal;6,5
+Romania;7,0
+Slovenia;6,5
+Slovakia;6,8
+Finland;8,0
+Sweden;8,2
+United Kingdom;7,9
+Iceland;7,9
+Norway;8,1
+Switzerland;8,4
+Serbia;5,1
+Turkey;5,6
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,3
+Belgium;7,6
+Bulgaria;4,9
+Czechia;7,1
+Denmark;8,3
+Germany (until 1990 former territory of the FRG);7,3
+Estonia;6,4
+Ireland;8,3
+Greece;6,3
+Spain;7,6
+France;7,1
+Croatia;6,0
+Italy;7,2
+Cyprus;7,2
+Latvia;6,4
+Lithuania;5,6
+Luxembourg;8,0
+Hungary;6,1
+Malta;7,5
+Netherlands;8,0
+Austria;8,0
+Poland;7,6
+Portugal;7,0
+Romania;7,1
+Slovenia;6,8
+Slovakia;6,5
+Finland;8,1
+Sweden;8,0
+United Kingdom;8,0
+Iceland;:
+Norway;8,3
+Switzerland;8,4
+Serbia;5,5
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;75 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;:
+Belgium;7,4
+Bulgaria;4,1
+Czechia;6,5
+Denmark;8,5
+Germany (until 1990 former territory of the FRG);7,5
+Estonia;6,0
+Ireland;8,1
+Greece;6,0
+Spain;6,8
+France;6,8
+Croatia;6,3
+Italy;6,7
+Cyprus;6,3
+Latvia;6,1
+Lithuania;5,8
+Luxembourg;7,5
+Hungary;5,7
+Malta;7,9
+Netherlands;8,0
+Austria;7,7
+Poland;7,0
+Portugal;4,8
+Romania;6,5
+Slovenia;6,6
+Slovakia;6,2
+Finland;7,7
+Sweden;8,0
+United Kingdom;7,7
+Iceland;7,9
+Norway;7,7
+Switzerland;8,3
+Serbia;5,2
+Turkey;6,8
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Upper secondary and post-secondary non-tertiary education (levels 3 and 4)
+AGE;75 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,1
+Belgium;7,4
+Bulgaria;4,4
+Czechia;6,7
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,2
+Estonia;6,4
+Ireland;8,1
+Greece;6,1
+Spain;6,9
+France;6,9
+Croatia;5,8
+Italy;7,1
+Cyprus;7,1
+Latvia;6,0
+Lithuania;5,9
+Luxembourg;7,4
+Hungary;5,8
+Malta;7,2
+Netherlands;7,8
+Austria;7,7
+Poland;7,4
+Portugal;6,3
+Romania;6,6
+Slovenia;6,7
+Slovakia;6,0
+Finland;8,0
+Sweden;7,7
+United Kingdom;8,0
+Iceland;:
+Norway;7,9
+Switzerland;8,3
+Serbia;5,6
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,7
+Belgium;8,1
+Bulgaria;6,5
+Czechia;8,5
+Denmark;:
+Germany (until 1990 former territory of the FRG);7,8
+Estonia;7,1
+Ireland;7,4
+Greece;6,8
+Spain;7,6
+France;7,7
+Croatia;:
+Italy;7,3
+Cyprus;6,6
+Latvia;7,5
+Lithuania;8,4
+Luxembourg;7,8
+Hungary;7,6
+Malta;7,9
+Netherlands;7,9
+Austria;8,4
+Poland;8,4
+Portugal;7,1
+Romania;8,3
+Slovenia;7,8
+Slovakia;8,3
+Finland;8,3
+Sweden;8,1
+United Kingdom;7,4
+Iceland;:
+Norway;7,9
+Switzerland;7,8
+Serbia;6,4
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 16 to 24 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;8,0
+Belgium;8,1
+Bulgaria;6,0
+Czechia;8,3
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);8,2
+Estonia;7,6
+Ireland;8,7
+Greece;7,3
+Spain;8,0
+France;8,0
+Croatia;:
+Italy;8,0
+Cyprus;7,5
+Latvia;7,6
+Lithuania;7,1
+Luxembourg;8,3
+Hungary;7,7
+Malta;7,6
+Netherlands;7,8
+Austria;8,6
+Poland;8,2
+Portugal;7,9
+Romania;8,7
+Slovenia;8,6
+Slovakia;8,5
+Finland;8,3
+Sweden;7,9
+United Kingdom;7,8
+Iceland;:
+Norway;7,8
+Switzerland;8,2
+Serbia;7,6
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;16 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;5,8
+Czechia;7,7
+Denmark;8,1
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;6,8
+Ireland;7,6
+Greece;6,7
+Spain;7,4
+France;7,5
+Croatia;7,3
+Italy;7,2
+Cyprus;6,7
+Latvia;7,1
+Lithuania;7,5
+Luxembourg;7,9
+Hungary;7,0
+Malta;7,8
+Netherlands;7,9
+Austria;8,2
+Poland;7,9
+Portugal;7,1
+Romania;7,9
+Slovenia;7,7
+Slovakia;7,7
+Finland;8,3
+Sweden;8,0
+United Kingdom;7,6
+Iceland;8,1
+Norway;7,9
+Switzerland;8,2
+Serbia;6,1
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;16 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,8
+Belgium;7,9
+Bulgaria;6,4
+Czechia;8,0
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;7,4
+Ireland;8,2
+Greece;6,9
+Spain;7,8
+France;7,6
+Croatia;7,2
+Italy;7,7
+Cyprus;7,6
+Latvia;7,4
+Lithuania;7,3
+Luxembourg;7,8
+Hungary;7,2
+Malta;7,9
+Netherlands;7,8
+Austria;8,3
+Poland;8,1
+Portugal;7,6
+Romania;8,3
+Slovenia;8,0
+Slovakia;7,9
+Finland;8,3
+Sweden;7,9
+United Kingdom;7,8
+Iceland;:
+Norway;8,0
+Switzerland;8,2
+Serbia;6,5
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,7
+Belgium;8,0
+Bulgaria;6,2
+Czechia;8,1
+Denmark;8,1
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;7,5
+Ireland;7,7
+Greece;6,5
+Spain;7,4
+France;7,6
+Croatia;8,1
+Italy;7,2
+Cyprus;6,8
+Latvia;7,6
+Lithuania;8,0
+Luxembourg;8,0
+Hungary;7,4
+Malta;7,8
+Netherlands;8,1
+Austria;8,3
+Poland;8,1
+Portugal;7,2
+Romania;8,0
+Slovenia;8,0
+Slovakia;7,9
+Finland;8,4
+Sweden;7,9
+United Kingdom;7,7
+Iceland;8,3
+Norway;7,9
+Switzerland;8,2
+Serbia;6,3
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 25 to 34 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,9
+Belgium;8,0
+Bulgaria;7,1
+Czechia;8,3
+Denmark;7,7
+Germany (until 1990 former territory of the FRG);7,9
+Estonia;7,8
+Ireland;8,4
+Greece;6,9
+Spain;8,0
+France;7,8
+Croatia;7,9
+Italy;7,8
+Cyprus;7,7
+Latvia;7,8
+Lithuania;7,8
+Luxembourg;7,9
+Hungary;7,8
+Malta;7,9
+Netherlands;7,8
+Austria;8,4
+Poland;8,3
+Portugal;7,8
+Romania;8,5
+Slovenia;8,2
+Slovakia;8,1
+Finland;8,3
+Sweden;7,8
+United Kingdom;7,8
+Iceland;:
+Norway;8,1
+Switzerland;8,1
+Serbia;6,7
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,5
+Belgium;7,7
+Bulgaria;6,0
+Czechia;7,8
+Denmark;8,1
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;7,1
+Ireland;7,5
+Greece;6,9
+Spain;7,3
+France;7,4
+Croatia;7,2
+Italy;7,4
+Cyprus;6,7
+Latvia;7,1
+Lithuania;7,5
+Luxembourg;7,9
+Hungary;7,1
+Malta;7,7
+Netherlands;7,9
+Austria;8,3
+Poland;8,0
+Portugal;7,1
+Romania;8,0
+Slovenia;7,7
+Slovakia;7,7
+Finland;8,3
+Sweden;8,0
+United Kingdom;7,5
+Iceland;8,1
+Norway;7,9
+Switzerland;8,1
+Serbia;6,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 35 to 49 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,8
+Belgium;7,9
+Bulgaria;6,8
+Czechia;8,1
+Denmark;7,8
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;7,7
+Ireland;8,1
+Greece;7,0
+Spain;7,9
+France;7,6
+Croatia;7,7
+Italy;7,7
+Cyprus;7,7
+Latvia;7,6
+Lithuania;7,6
+Luxembourg;7,7
+Hungary;7,4
+Malta;8,0
+Netherlands;7,8
+Austria;8,2
+Poland;8,1
+Portugal;7,7
+Romania;8,3
+Slovenia;8,0
+Slovakia;8,2
+Finland;8,3
+Sweden;7,8
+United Kingdom;7,6
+Iceland;:
+Norway;8,0
+Switzerland;8,0
+Serbia;6,7
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,4
+Belgium;7,7
+Bulgaria;5,7
+Czechia;7,5
+Denmark;7,9
+Germany (until 1990 former territory of the FRG);7,4
+Estonia;6,3
+Ireland;7,5
+Greece;6,6
+Spain;7,3
+France;7,4
+Croatia;7,1
+Italy;7,2
+Cyprus;6,3
+Latvia;6,8
+Lithuania;6,8
+Luxembourg;7,7
+Hungary;6,6
+Malta;7,9
+Netherlands;7,8
+Austria;8,1
+Poland;7,5
+Portugal;6,9
+Romania;7,7
+Slovenia;7,4
+Slovakia;7,2
+Finland;8,2
+Sweden;7,9
+United Kingdom;7,6
+Iceland;8,0
+Norway;8,0
+Switzerland;8,2
+Serbia;5,9
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 50 to 64 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,9
+Bulgaria;6,4
+Czechia;7,8
+Denmark;7,4
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;7,2
+Ireland;8,2
+Greece;6,8
+Spain;7,6
+France;7,4
+Croatia;7,0
+Italy;7,5
+Cyprus;7,3
+Latvia;7,1
+Lithuania;6,9
+Luxembourg;7,8
+Hungary;7,1
+Malta;7,8
+Netherlands;7,8
+Austria;8,2
+Poland;8,0
+Portugal;7,5
+Romania;7,9
+Slovenia;7,8
+Slovakia;7,2
+Finland;8,3
+Sweden;7,8
+United Kingdom;7,7
+Iceland;:
+Norway;8,0
+Switzerland;8,2
+Serbia;6,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;5,2
+Czechia;7,1
+Denmark;8,5
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;6,4
+Ireland;8,2
+Greece;6,7
+Spain;7,8
+France;7,5
+Croatia;6,9
+Italy;7,0
+Cyprus;7,0
+Latvia;6,5
+Lithuania;7,0
+Luxembourg;8,0
+Hungary;6,6
+Malta;7,8
+Netherlands;8,0
+Austria;8,2
+Poland;7,5
+Portugal;7,0
+Romania;7,5
+Slovenia;7,6
+Slovakia;7,2
+Finland;8,1
+Sweden;8,2
+United Kingdom;8,0
+Iceland;7,9
+Norway;8,1
+Switzerland;8,5
+Serbia;6,1
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;From 65 to 74 years
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,8
+Belgium;7,9
+Bulgaria;5,5
+Czechia;7,7
+Denmark;8,2
+Germany (until 1990 former territory of the FRG);7,7
+Estonia;7,1
+Ireland;8,5
+Greece;6,9
+Spain;7,8
+France;7,6
+Croatia;6,6
+Italy;7,7
+Cyprus;7,8
+Latvia;7,2
+Lithuania;6,6
+Luxembourg;8,0
+Hungary;6,9
+Malta;7,7
+Netherlands;8,0
+Austria;8,3
+Poland;7,9
+Portugal;7,5
+Romania;7,9
+Slovenia;7,9
+Slovakia;7,6
+Finland;8,5
+Sweden;8,1
+United Kingdom;8,1
+Iceland;:
+Norway;8,2
+Switzerland;8,7
+Serbia;6,2
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;75 years or over
+SEX;Total
+TIME;2013
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,7
+Bulgaria;4,6
+Czechia;7,0
+Denmark;8,3
+Germany (until 1990 former territory of the FRG);7,9
+Estonia;6,2
+Ireland;8,5
+Greece;6,7
+Spain;7,7
+France;7,2
+Croatia;7,0
+Italy;7,2
+Cyprus;7,3
+Latvia;6,4
+Lithuania;7,0
+Luxembourg;8,0
+Hungary;6,5
+Malta;7,9
+Netherlands;7,9
+Austria;8,2
+Poland;7,6
+Portugal;7,1
+Romania;7,5
+Slovenia;7,3
+Slovakia;7,0
+Finland;7,9
+Sweden;8,2
+United Kingdom;7,7
+Iceland;7,6
+Norway;7,9
+Switzerland;8,6
+Serbia;5,8
+Turkey;:
+;
+Special value:;
+:;not available
+;
+UNIT;Rating (0-10)
+ISCED11;Tertiary education (levels 5-8)
+AGE;75 years or over
+SEX;Total
+TIME;2018
+;
+GEO/INDIC_WB;Overall life satisfaction 
+European Union - 28 countries;7,6
+Belgium;7,8
+Bulgaria;4,9
+Czechia;7,3
+Denmark;8,2
+Germany (until 1990 former territory of the FRG);7,6
+Estonia;6,7
+Ireland;8,3
+Greece;6,5
+Spain;7,5
+France;7,5
+Croatia;6,3
+Italy;7,6
+Cyprus;7,5
+Latvia;6,7
+Lithuania;6,7
+Luxembourg;7,8
+Hungary;6,3
+Malta;7,3
+Netherlands;7,8
+Austria;7,6
+Poland;7,8
+Portugal;6,8
+Romania;7,3
+Slovenia;7,5
+Slovakia;6,4
+Finland;8,0
+Sweden;8,1
+United Kingdom;7,9
+Iceland;:
+Norway;8,4
+Switzerland;8,6
+Serbia;5,9
+Turkey;:
+;
+Special value:;
+:;not available
