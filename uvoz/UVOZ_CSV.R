@@ -12,10 +12,15 @@ uvozi.rating <- function(rating) {
   data2$leto <- factor(2018, levels=c(2013, 2018))
   data1 <- data1[,c(1,3,2)]
   data2 <- data2[,c(1,3,2)]
-  data <- rbind(data1,data2)
-  ali <- data %>% filter(is.na("Ocena"))
+  drzave_kjer_NA_2013 <- data1 %>% filter(is.na(Ocena) == TRUE) %>% select(Drzava)
+  drzave_kjer_NA_2018 <- data2 %>% filter(is.na(Ocena) == TRUE) %>% select(Drzava)
+  odpadle_drzave <- c(rbind(drzave_kjer_NA_2013, drzave_kjer_NA_2018))
+  vse_drzave <- c(data1 %>% select(Drzava))
+  data1 <- data1[!vse_drzave %in% odpadle_drzave,]
+  data2 <- data2[!vse_drzave %in% odpadle_drzave,]
   
+  data <- rbind(data1,data2)
   return(data)
-}
+  }
 rating <- uvozi.rating()
 
