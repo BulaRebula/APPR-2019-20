@@ -1,6 +1,3 @@
-library(readr)
-library(tidyr)
-library(dplyr)
 
 # UVOZ TABELE Z ZADOVOLJSTVOM PREBIVALCEV ZA LETO 2013 IN 2018. PROBLEM JE KER ZA 2 DRZAVI NI PPODATKOV ZA 2018 IN JU BOM MORAL IZBRISATI VEN 
 uvozi.rating <- function(rating) {
