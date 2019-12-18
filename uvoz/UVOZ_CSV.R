@@ -11,13 +11,20 @@ uvozi.rating <- function(rating) {
   data2 <- data2[,c(1,3,2)]
   drzave_kjer_NA_2013 <- data1 %>% filter(is.na(Ocena) == TRUE) %>% select(Drzava)
   drzave_kjer_NA_2018 <- data2 %>% filter(is.na(Ocena) == TRUE) %>% select(Drzava)
-  odpadle_drzave <- c(rbind(drzave_kjer_NA_2013, drzave_kjer_NA_2018))
-  vse_drzave <- c(data1 %>% select(Drzava))
-  data1 <- data1[!vse_drzave %in% odpadle_drzave,]
-  data2 <- data2[!vse_drzave %in% odpadle_drzave,]
+  odpadle_drzave <- rbind(drzave_kjer_NA_2013, drzave_kjer_NA_2018)
+  #drzave_kjer_NA_2018 <- data2 %>% filter(is.na(Ocena) == TRUE)
+  #odpadle <- split(odpadle_drzave, odpadle_drzave$Drzava)
+  seznam <- as.list(odpadle_drzave)
+  seznam <- unname(seznam, force=FALSE)
+  #vse_drzave <- c(data1 %>% select(Drzava))
+  #odpad <- as.list(as.data.frame(t(odpadle_drzave)))
+  data3 <- data1[! data1$Drzava %in% "Turkey",]
+  data3 <- data1[! data1$Drzava %in% "Iceland",]
+  data4 <- data2[! data2$Drzava %in% "Turkey",]
+  data4 <- data2[! data2$Drzava %in% "Iceland",]
+  #data4 <- data2[!seznam %in% data2["Drzave"],]
   
-  data <- rbind(data1,data2)
+  data <- rbind(data3,data4)
   return(data)
   }
 rating <- uvozi.rating()
-
