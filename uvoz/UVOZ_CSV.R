@@ -4,17 +4,18 @@ uvozi.rating <- function(rating) {
                     locale=locale(encoding="CP1250"))
   novi_podatki <- read_csv2("podatki/Average_rating_1-10.csv", col_names=c("Drzava","Ocena"), skip_empty_rows=TRUE, skip=148,n_max=34, na=":",
                      locale=locale(encoding="CP1250")) %>% drop_na()
-  stari_podatki$leto <- factor(2013, levels=c(2013, 2018))
-  novi_podatki$leto <- factor(2018, levels=c(2013, 2018))
-  novi_podatki$leto <- unfactor(novi_podatki$leto)
-  stari_podatki$leto <- unfactor(stari_podatki$leto)
+  stari_podatki$leto <- 2013
+  novi_podatki$leto <- 2018
+  #novi_podatki$leto <- unfactor(novi_podatki$leto)
+  #stari_podatki$leto <- unfactor(stari_podatki$leto)
   
-  #data1 <- data1[,c(1,3,2)]
-  #data2 <- data2[,c(1,3,2)]
-  data1 <- gather(stari_podatki, -Drzava, key=leto, value=Ocena, na.rm = TRUE)
-  data2 <- gather(novi_podatki, -Drzava, key = leto, value = Ocena)
-  data <- inner_join(data1,data2, by = c("Drzava"))
-  data <- gather(data, -Drzava, key = "leto", value = "Ocena")
+  data1 <- data1[,c(1,3,2)]
+  data2 <- data2[,c(1,3,2)]
+  #data1 <- gather(stari_podatki, -Drzava, key=leto, value=Ocena, na.rm = TRUE)
+  #data2 <- gather(novi_podatki, -Drzava, key = leto, value = Ocena)
+  #data <- inner_join(data1,data2, by = c("Drzava"))
+  #data <- gather(data, -Drzava, key = "leto", value = "Ocena")
+  data <- rbind(stari_podatki, novi_podatki) %>% filter(! Drzava %in% c("Iceland", "Turkey"))
   
   
   #drzave_kjer_NA_2013 <- data1 %>% filter(is.na(Ocena) == TRUE) %>% select(Drzava)
