@@ -34,7 +34,7 @@ uvozi.BDP <- function(rating) {
   BDP_na_prebivalca <- read_csv("podatki/Main_GDP_aggregates_per_capita.csv", col_names=c("Drzava",2013:2018), skip=17,n_max=37, na=":",locale=locale(encoding="CP1250")) %>% drop_na()
   spisek_drzav_2 <- BDP_na_prebivalca %>% select(Drzava)
   spisek_drzav <- inner_join(spisek_drzav_1,spisek_drzav_2, by = c("Drzava"))
-  #BDP <- BDP_na_prebivalca %>% filter(Drzava %in% c(spisek_drzav))
+  BDP <- BDP_na_prebivalca %>% filter(Drzava %in% c(spisek_drzav))
   BDP <- gather(BDP_na_prebivalca, -Drzava, key = "leto", value = "Ocena")
   return(BDP)
 }
