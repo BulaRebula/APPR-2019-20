@@ -40,9 +40,12 @@ uvozi.BDP <- function(rating) {
 }
 razvitost <- uvozi.BDP()
 
-uvozi.zaposletnost <- function(zaposlenost){
+uvozi.zaposlenost <- function(zaposlenost){
   link <- "https://en.wikipedia.org/wiki/List_of_countries_by_unemployment_rate"
   stran <- html_session(link) %>% read_html()
-  zac_tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>% .[[1]] %>% html_table(dec=",")
+  stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>% .[[1]] %>% html_table(dec=",") %>%
+    transmute(name=`Name of Countries`, Brezposelnost=parse_number(`Unemployment rate (%)`))
   
 }
+zaposlenost <- uvozi.zaposlenost()
+
