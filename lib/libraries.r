@@ -7,6 +7,12 @@ library(readr)
 library(tidyr)
 library(dplyr)
 library(tmap)
+library(ggplot2)
+library(grid)
+library(rworldmap)
+
+
+
 #install.packages('varhandle')
 options(gsubfn.engine="R")
 

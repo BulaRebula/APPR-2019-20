@@ -11,10 +11,12 @@ uvozi.rating <- function(rating) {
   #data1 <- gather(stari_podatki, -Drzava, key=leto, value=Ocena, na.rm = TRUE)
   #data2 <- gather(novi_podatki, -Drzava, key = leto, value = Ocena)
   data <- inner_join(data1,data2, by = c("Drzava"))
+  #data <- data$Drzava[data$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
   #data <- gather(data, -Drzava, key = "leto", value = "Ocena")
   data <- rbind(stari_podatki, novi_podatki) %>% filter(! Drzava %in% c("Iceland", "Turkey"))
-  spisek_drzav_1 <- data %>% select(Drzava)
-  spisek_drzav_1 <- spisek_drzav_1[1:32,]
+  data$Drzava[data$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
+  #spisek_drzav_1 <- data %>% select(Drzava)
+  #spisek_drzav_1 <- spisek_drzav_1[1:32,]
   #vse_drzave <- strsplit(c(novi_podatki %>% select(Drzava))," ")
   #odpad <- as.list(as.data.frame(t(odpadle_drzave)))
   #data3 <- data1[! data1$Drzava %in% "Turkey",]
@@ -36,6 +38,7 @@ uvozi.BDP <- function(rating) {
   spisek_drzav <- inner_join(spisek_drzav_1,spisek_drzav_2, by = c("Drzava"))
   #BDP <- BDP_na_prebivalca %>% filter(Drzava %in% c("spisek_drzav"))
   BDP <- gather(BDP_na_prebivalca, -Drzava, key = "leto", value = "BDP per capita")
+  BDP$Drzava[BDP$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
   return(BDP)
 }
 razvitost <- uvozi.BDP()
