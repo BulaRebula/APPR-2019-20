@@ -10,6 +10,13 @@ library(tmap)
 library(ggplot2)
 library(grid)
 library(rworldmap)
+library(ourworldindata)
+library(cowplot)
+library(googleway)
+library(ggrepel)
+library(ggspatial)
+library(rnaturalearth)
+library(rnaturalearthdata)
 
 
 
@@ -18,5 +25,4 @@ options(gsubfn.engine="R")
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.
 source("lib/uvozi.zemljevid.r", encoding="UTF-8")
-
 
