@@ -33,7 +33,7 @@ uvozi.rating <- function(rating) {
   }
 
 #UVOZ TABELE Z BDP
-uvozi.BDP <- function(rating) {
+uvozi.BDP <- function() {
   BDP_na_prebivalca <- read_csv("podatki/Main_GDP_aggregates_per_capita.csv", col_names=c("Drzava",2013:2018), skip=17,n_max=37, na=":",locale=locale(encoding="CP1250")) %>% drop_na()
   #spisek_drzav_2 <- BDP_na_prebivalca %>% select(Drzava)
   #spisek_drzav <- inner_join(spisek_drzav_1,spisek_drzav_2, by = c("Drzava"))
@@ -44,7 +44,7 @@ uvozi.BDP <- function(rating) {
 }
 
 
-uvozi.zaposlenost <- function(zaposlenost){
+uvozi.zaposlenost <- function(){
   link <- "https://en.wikipedia.org/wiki/List_of_countries_by_unemployment_rate"
   stran <- html_session(link) %>% read_html()
   stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>% .[[1]] %>% html_table(dec=",") %>%

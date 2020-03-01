@@ -16,28 +16,48 @@ brezposelnost.svet()
 zadovoljstvo_2013 <- function(){
   ocene <- uvozi.rating()
   stare_ocene <- ocene %>% filter(leto == 2013) %>% select(Drzava, Ocena)
-  hist(stare_ocene$Ocena, main = 'Razporeditev ocen zadovoljstva prebivalcev evropskih držav v letu 2013', 
-       xlab = 'Ocena zadovoljstva', ylab = 'Količina', xlim = c(4,9), ylim = c(0,10), col = 'blue')
-  staro_povprecje <- mean(stare_ocene$Ocena)
-  abline(v = staro_povprecje, col='red')
+  histogram <- ggplot(stare_ocene, aes(x=Ocena)) +
+                    geom_histogram(binwidth=1, fill="#c0392b", alpha=0.75) +
+                    fte_theme() +
+                    labs(title="Ocena zadovoljstva prebivalcev evropskih držav z življenjem leta 2013",
+                         x="Ocena zadovoljstva", y="Število držav") +
+                    scale_x_continuous(breaks = seq(0,10, by=0.5)) +
+                    scale_y_continuous(breaks = seq(0,26, by=2)) + 
+                    geom_hline(yintercept=0, size=0.4, color="black")
+  return(histogram)
 }
 zadovoljstvo_2013()
+
 zadovoljstvo_2018 <- function(){
   ocene <- uvozi.rating()
   nove_ocene <- ocene %>% filter(leto == 2018) %>% select(Drzava, Ocena)
-  hist(nove_ocene$Ocena, main = 'Razporeditev ocen zadovoljstva prebivalcev evropskih držav v letu 2018', 
-       xlab = 'Ocena zadovoljstva', ylab = 'Količina', xlim = c(4,9), ylim = c(0,10), col = 'blue')
-  novo_povprecje <- mean(nove_ocene$Ocena)
-  abline(v = novo_povprecje, col='red')
+  histogram <- ggplot(nove_ocene, aes(x=Ocena)) +
+    geom_histogram(binwidth=1, fill="#c0392b", alpha=0.75) +
+    fte_theme() +
+    labs(title="Ocena zadovoljstva prebivalcev evropskih držav z življenjem leta 2018",
+         x="Ocena zadovoljstva", y="Število držav") +
+    scale_x_continuous(breaks = seq(0,10, by=0.5)) +
+    scale_y_continuous(breaks = seq(0,26, by=2)) + 
+    geom_hline(yintercept=0, size=0.4, color="black")
+  return(histogram)
 }
 zadovoljstvo_2018()
 ## analiza razvitosti drzav glede na BDP
 gibanje_BDP <- function(){
   BDP <- uvozi.BDP()
   bdp_po_letih <- aggregate(BDP$'BDP per capita', by=list(leto=BDP$leto), FUN=mean)
-  h <- ggplot(bdp_po_letih, aes(x = leto, y = x, group = 1)) + geom_path()
-  h <- h + xlab('Leto') + ylab('realni BDP na prebivalca') + ggtitle('Gibanje realnega BDP na prebivalca v Evropi')
-  print(h)
+  bdp_po_letih$x <- as.numeric(bdp_po_letih$x)
+  #h <- ggplot(bdp_po_letih, aes(x = leto, y = x, group = 1)) + geom_path()
+  #h <- h + xlab('Leto') + ylab('realni BDP na prebivalca') + ggtitle('Gibanje realnega BDP na prebivalca v Evropi')
+  #print(h)
+  ggplot(bdp_po_letih, aes(x=leto, y=x)) +
+    geom_point(color="#c0392b") +
+    #scale_x_continuous(limits=c(2010, 2020))+
+    #scale_y_continuous(limits=c(20000, 30000))+
+    #scale_x_date(labels = as.Date(c("2010-01-01","2020-01-01")))
+    ylim(20000, 30000)+
+    fte_theme() +
+    labs(x="Leto", y="Realni BDP v €", title="Realni povprečni BDP na prebivalca v Evropi")
 }
 gibanje_BDP()
 ## zemljevid evrope glede na BDP
@@ -50,4 +70,46 @@ zemljevid_evrope_BDP <- function(){
   evropa + tm_text("iso_a3", size="AREA")
   tmap_mode('view')
   return(evropa)
+}
+zemljevid_evrope_BDP()
+
+
+## funkckcija za temo pri histogramu
+fte_theme <- function() {
+  
+  # Generate the colors for the chart procedurally with RColorBrewer
+  palette <- brewer.pal("Greys", n=9)
+  color.background = palette[2]
+  color.grid.major = palette[3]
+  color.axis.text = palette[6]
+  color.axis.title = palette[7]
+  color.title = palette[9]
+  
+  # Begin construction of chart
+  theme_bw(base_size=9) +
+    
+    # Set the entire chart region to a light gray color
+    theme(panel.background=element_rect(fill=color.background, color=color.background)) +
+    theme(plot.background=element_rect(fill=color.background, color=color.background)) +
+    theme(panel.border=element_rect(color=color.background)) +
+    
+    # Format the grid
+    theme(panel.grid.major=element_line(color=color.grid.major,size=.25)) +
+    theme(panel.grid.minor=element_blank()) +
+    theme(axis.ticks=element_blank()) +
+    
+    # Format the legend, but hide by default
+    theme(legend.position="none") +
+    theme(legend.background = element_rect(fill=color.background)) +
+    theme(legend.text = element_text(size=7,color=color.axis.title)) +
+    
+    # Set title and axis labels, and format these and tick marks
+    theme(plot.title=element_text(color=color.title, size=10, vjust=1.25)) +
+    theme(axis.text.x=element_text(size=7,color=color.axis.text)) +
+    theme(axis.text.y=element_text(size=7,color=color.axis.text)) +
+    theme(axis.title.x=element_text(size=8,color=color.axis.title, vjust=0)) +
+    theme(axis.title.y=element_text(size=8,color=color.axis.title, vjust=1.25)) +
+    
+    # Plot margins
+    theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm"))
 }
