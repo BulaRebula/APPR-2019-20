@@ -67,12 +67,34 @@ zemljevid_evrope_BDP <- function(){
   BDP <- BDP %>% filter (leto == 2018) %>% select('Drzava', 'BDP per capita')
   podatki <- merge(y = BDP,x = evropa, by.x='name', by.y = 'Drzava')
   evropa <- tm_shape(podatki) + tm_polygons('BDP per capita')
-  evropa + tm_text("iso_a3", size="AREA")
+  evropa
   tmap_mode('view')
   return(evropa)
 }
 zemljevid_evrope_BDP()
 
+## Cluster za evropske drzave glede na zadovoljstvo, zaposlenost in BDP
+cluster_evropa <- function(){
+  evropa1 <- World %>% filter (continent == 'Europe')
+  zadovoljstvo <- uvozi.rating()
+  brezposelnost <- uvozi.zaposlenost()
+  bdp <- uvozi.BDP() %>% filter(leto == 2018) %>% select('Drzava', 'BDP per capita')
+  evropa2 <- inner_join(x = evropa1, y = zadovoljstvo, by = c('sovereignt'='Drzava'))
+  evropa3 <- inner_join(x = evropa2, y = brezposelnost, by = c('sovereignt'='name'))
+  evropa4 <- inner_join(x = evropa3, y = bdp, by = c('sovereignt'='Drzava'))
+  podatki_cluster <- evropa4 %>% filter (leto == 2018) %>% select('sovereignt', 'pop_est','BDP per capita', 'Ocena','Brezposelnost')
+  podatki_cluster2 <- podatki_cluster
+  podatki_cluster$geometry = NULL
+  cluster <- podatki_cluster %>% select(-sovereignt) %>% scale()
+  rownames(cluster) <- podatki_cluster$sovereignt
+  k <- kmeans(cluster, 5, nstart=1000)
+  skupine <- data.frame(sovereignt=podatki_cluster2$sovereignt, skupina=factor(k$cluster))
+  podatki_za_risat <- merge(podatki_cluster2, skupine, by ='sovereignt')
+  zemljevid <- tm_shape(podatki_za_risat) + tm_polygons('skupina')
+  zemljevid
+  tmap_mode('view')
+  return(zemljevid)
+}
 
 ## funkckcija za temo pri histogramu
 fte_theme <- function() {

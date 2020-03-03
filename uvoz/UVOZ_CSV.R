@@ -1,5 +1,5 @@
 # UVOZ TABELE Z ZADOVOLJSTVOM PREBIVALCEV ZA LETO 2013 IN 2018. PROBLEM JE KER ZA 2 DRZAVI NI PPODATKOV ZA 2018 IN JU BOM MORAL IZBRISATI VEN 
-uvozi.rating <- function(rating) {
+uvozi.rating <- function() {
   stari_podatki <- read_csv2("podatki/Average_rating_1-10.csv", col_names=c("Drzava","Ocena"), skip_empty_rows=TRUE, skip=104,n_max=33, na=":",
                     locale=locale(encoding="CP1250"))
   novi_podatki <- read_csv2("podatki/Average_rating_1-10.csv", col_names=c("Drzava","Ocena"), skip_empty_rows=TRUE, skip=149,n_max=35, na=":",
