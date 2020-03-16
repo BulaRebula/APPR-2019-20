@@ -12,12 +12,14 @@ Analiziral bom povezavo med razvitostjo države ter zadovoljstvom oz. srečo nje
 Večino podatkov bom pridobil na strani Eurostat (https://ec.europa.eu/eurostat), kjer so podatki dosegljivi v formatih XLS, CSV in HTML.
 Imena tabel, ki jih bom uporabil:
 * Average rating of satisfaction by domain, sex, age and educational attainment level. 
-(Ocena zadovoljstva z življenjem 1-10, različne starostne skupine in razdeljeno po spolu ter izobrazbi, letno)
+(Ocena zadovoljstva z življenjem 1-10, različne starostne skupine in razdeljeno po spolu ter izobrazbi, letno (2013, 2018)
 * Real GDP per capita. 
-(realni BDP z osnovo 2010, realna sprememba BDP glede na prejšnje leto, letno)
+(realni BDP z osnovo 2010, realna sprememba BDP glede na prejšnje leto, letno (2013-2018)
 * Total unemployment rate. 
-(Brezposelnost v procentih glede na vso prebivalstvo in aktivno prebivalstvo, letno)
-* Life Satisfaction in Detail by Country (HTML) (http://www.oecdbetterlifeindex.org/topics/life-satisfaction/)
+(Brezposelnost v procentih glede na vso prebivalstvo in aktivno prebivalstvo, za vako državo najnovejši podatki)
+(https://en.wikipedia.org/wiki/List_of_countries_by_unemployment_rate)
+* Tabela s podatki o državah sveta(lokacija, populacija)
+(Library v Rstudio)
 
 ## Program
 
