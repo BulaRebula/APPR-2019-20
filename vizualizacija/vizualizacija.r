@@ -9,6 +9,7 @@ brezposelnost.svet <- function(){
   svet <- tm_shape(podatki2) + tm_polygons("Brezposelnost")
   return(svet)
 }
+brezposelnost.svet <- brezposelnost.svet()
 
 
 # HISTOGRAM ZADOVOLJSTVA PREBIVALCEV ZA LETO 2013 IN 2018
@@ -16,31 +17,37 @@ brezposelnost.svet <- function(){
 zadovoljstvo_2013 <- function(){
   ocene <- uvozi.rating()
   stare_ocene <- ocene %>% filter(leto == 2013) %>% select(Drzava, Ocena)
+  stare_ocene[,-1] <-round(stare_ocene[,-1]*2)/2
+  
   histogram <- ggplot(stare_ocene, aes(x=Ocena)) +
-                    geom_histogram(binwidth=1, fill="#c0392b", alpha=0.75) +
+                    geom_histogram(binwidth=0.5, fill="#c0392b", alpha=0.75) +
                     fte_theme() +
                     labs(title="Ocena zadovoljstva prebivalcev evropskih držav z življenjem leta 2013",
                          x="Ocena zadovoljstva", y="Število držav") +
-                    scale_x_continuous(breaks = seq(0,10, by=0.5)) +
-                    scale_y_continuous(breaks = seq(0,26, by=2)) + 
+                    scale_x_continuous(breaks = seq(0,10, by=0.5), limits = c(4.5,9)) +
+                    scale_y_continuous(breaks = seq(0,26, by=2), limits = c(0,12)) + 
                     geom_hline(yintercept=0, size=0.4, color="black")
   return(histogram)
 }
+zadovoljstvo_2013 <- zadovoljstvo_2013()
 
 
 zadovoljstvo_2018 <- function(){
   ocene <- uvozi.rating()
   nove_ocene <- ocene %>% filter(leto == 2018) %>% select(Drzava, Ocena)
+  nove_ocene[,-1] <-round(nove_ocene[,-1]*2)/2
+  
   histogram <- ggplot(nove_ocene, aes(x=Ocena)) +
-    geom_histogram(binwidth=1, fill="#c0392b", alpha=0.75) +
+    geom_histogram(binwidth=0.5, fill="#c0392b", alpha=0.75) +
     fte_theme() +
     labs(title="Ocena zadovoljstva prebivalcev evropskih držav z življenjem leta 2018",
          x="Ocena zadovoljstva", y="Število držav") +
-    scale_x_continuous(breaks = seq(0,10, by=0.5)) +
-    scale_y_continuous(breaks = seq(0,26, by=2)) + 
+    scale_x_continuous(breaks = seq(0,10, by=0.5), limits = c(4.5,9)) +
+    scale_y_continuous(breaks = seq(0,26, by=2), limits = c(0,12)) + 
     geom_hline(yintercept=0, size=0.4, color="black")
   return(histogram)
 }
+zadovoljstvo_2018 <- zadovoljstvo_2018()
 
 
 # OSNOVNI GRAF, KI PRIKAZUJE GIBANJE POVPRECNEGA BDP V EVROPI
@@ -56,7 +63,7 @@ gibanje_BDP <- function(){
     labs(x="Leto", y="Realni BDP v €", title="Realni povprečni BDP V € na prebivalca v Evropi")
   return(g)
 }
-
+gibanje_BDP <- gibanje_BDP()
 
 # ZEMLJEVID EVROPE GLEDE NA BDP
 
@@ -69,4 +76,4 @@ zemljevid_evrope_BDP <- function(){
   tmap_mode('view')
   return(evropa)
 }
-zemljevid_evrope_BDP()
+zemljevid_evrope_BDP <- zemljevid_evrope_BDP()

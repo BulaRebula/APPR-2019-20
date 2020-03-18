@@ -107,7 +107,7 @@ Spodnji graf prikazuje povezavo med številom naselij in površino občine.
 #  guides(color=guide_legend(title="Skupina"),
 #         size=guide_legend(title="Prebivalci (* 1000)"))
 ```
-halo halo
+halo halo halo
 ***
 
 ```{r shiny, echo=FALSE}
