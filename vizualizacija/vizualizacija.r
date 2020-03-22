@@ -60,8 +60,9 @@ gibanje_BDP <- function(){
   BDP <- uvozi.BDP()
   bdp_po_letih <- aggregate(BDP$'BDP per capita', by=list(leto=BDP$leto), FUN=mean)
   bdp_po_letih$x <- as.numeric(bdp_po_letih$x)
-  g <- ggplot(bdp_po_letih, aes(x=leto, y=x)) +
+  g <- ggplot(bdp_po_letih, aes(x=leto, y=x, group = 1)) +
     geom_point(color="#c0392b") +
+    geom_path(color = "black") +
     ylim(20000, 30000)+
     fte_theme() +
     labs(x="Leto", y="Realni BDP v €", title="Realni povprecni BDP v € na prebivalca v Evropi")
