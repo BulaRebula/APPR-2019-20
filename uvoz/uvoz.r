@@ -15,6 +15,7 @@ uvozi.rating <- function() {
   data$Drzava[data$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
   return(data)
 }
+Zadovoljstvo <- uvozi.rating()
 
 
 # UVOZ TABELE Z BDP
@@ -25,6 +26,7 @@ uvozi.BDP <- function() {
   BDP$Drzava[BDP$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
   return(BDP)
 }
+BDP <- uvozi.BDP()
 
 
 # UVOZ TABELE S PODATKI O BREZPOSELNOSTI ZA CEL SVET
@@ -36,6 +38,7 @@ uvozi.zaposlenost <- function(){
     transmute(name=`Name of Countries`, Brezposelnost=parse_number(`Unemployment rate (%)`))
   return(stran)
 }
+Brezposelnost <- uvozi.zaposlenost()
 
 # UVOZ PODATKOV O SVETU (uporabljeno za zemljevid)
 
@@ -43,6 +46,7 @@ uvozi.svet <- function(){
   World <- ne_countries(scale = "medium", returnclass = "sf")
   return(World)
 }
+svet <- uvozi.svet()
 
 
 # FUNCKIJA ZA TEMO PRI VIZUALIZACIJI

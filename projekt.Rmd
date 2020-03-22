@@ -1,13 +1,13 @@
 ---
-title: "Analiza realnega BDP in brezposelnosti držav evrope in sveta"
-author: "Študent FMF"
+title: "Analiza realnega BDP, zadovoljstva in brezposelnosti držav evrope in sveta"
+author: "Aljoša Rebolj"
 output:
   html_document: default
   pdf_document:
     includes:
       in_header: lib/styles.sty
     latex_engine: xelatex
-#runtime: shiny
+runtime: shiny
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
@@ -24,11 +24,11 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
-# Izbira teme
+# Predstavitev naloge
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
+V moji nalogi bom analiziral realni BDP na prebivalca, zadovoljstvo z življenjem ter brezposelnost v državah Evrope. Kot dodatek bom tudi predstavil zemljevid brezposelnosti za cel svet, da poudarim razlike med razvitimi in manj razvitimi kontinenti.
 
-![](slike/grb.png)
+![](slike/evropa.jpg)
 
 ***
 
@@ -38,33 +38,22 @@ Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
-z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
+Uvozil sem podatke o državah v obliki CSV z evropskega statističnega urada ter v obliki HTML z Wikipedije.
+Uvozil sem tudi tabelo s podatki o državah sveta, ki je vgrajena v R. Podatke imamo v 3 razpredelnicah v obliki *tidy data*, ter razpredelnico, ki je vgrajena in je nisem spreminjal v tidy data, saj sem jo uporabil samo za lokacije držav na zemljevidu.
 
-1. `druzine` - podatki o družinah za vsako občino
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `velikost.druzine` - spremenljivka: število otrok v družini (število: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali več),
-  - `stevilo.druzin` - meritev: število družin z ustreznim številom otrok v ustrezni občini (število).
+1. `Zadovoljstvo` - Meritev zadovoljstva prebivalcev evropskih držav,
+  - `Drzava` - spremenljivka: ime države,
+  - `leto` - spremenljivka: leto testiranja zadovoljstva. Podatke imamo za leti 2013 in 2018,
+  - `Ocena` - meritev: Povprečna ocena zadovoljstva v državi za to leto (število).
 
-2. `obcine` - podatki o občinah
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `povrsina` - meritev: površina občine v km$^2$ (število),
-  - `prebivalci` - meritev: prebivalstvo občine (število),
-  - `gostota` - meritev: število prebivalcev na km$^2$ (število),
-  - `naselja` - meritev: število naselij v občini (število),
-  - `ustanovitev` - meritev: leto ustanovitve občine (število),
-  - `pokrajina` - meritev: pokrajina, ki ji občina pripada (neurejen faktor),
-  - `regija` - meritev: regija, ki ji občina pripada (neurejen faktor),
-  - `odcepitev` - meritev: podatki o občinah, od katerih se je občina odcepila (besedilo).
-
-**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere občine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
-
-Spodnji graf prikazuje porazdelitev števila naselij v občinah.
-
-```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
-#ggplot(obcine, aes(x=naselja)) + geom_histogram() +
-#  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
-```
+2. `BDP` - podatki o realnem BDP na prebivalca
+  - `Drzava` - spremenljivka: ime države,
+  - `leto` - spremenljivka: Podatke imamo za leta 2013-2018,
+  - `BDP per capita` - meritev: realni BDP na prebivalca (število),
+  
+3. `Brezposelnost` - Najnovejši podatki o brezposelnosti države
+  - `name` - spremenljivka: ime države,
+  - `Brezposelnost` - meritev: brezposelnost v tej državi(procent),
 
 ***
 
@@ -73,19 +62,33 @@ Spodnji graf prikazuje porazdelitev števila naselij v občinah.
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
-
+Spodnja histogram prikazujeta oceno zadovoljstva prebivalcev z Življenjem za leti 2013 in 2018.
 
 
 ```{r zadovoljstvo_2013, echo=FALSE, message=FALSE, fig.align='center', warning = FALSE}
 print(zadovoljstvo_2013)
 ```
-Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
+```{r zadovoljstvo_2018, echo=FALSE, message=FALSE, fig.align='center', warning = FALSE}
+print(zadovoljstvo_2018)
+```
 
-```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-#ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, #by=c("OB_UIME"="obcina")),
-#                        aes(x=long, y=lat, group=group, fill=povprecje)) +
-#  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
-#  guides(fill=guide_colorbar(title="Povprečje"))
+Na histogramu je označeno povprečje kot pokončna črna črta. Vidimo, da se je povprečje dvignilo in lahko sklepamo, kot bom pokazal kasneje, da je to posledica okrevanja po finančni krizi.
+
+```{r gibanje_BDP, echo=FALSE, message=FALSE, fig.align='left', warning = FALSE}
+print(gibanje_BDP)
+```
+
+Trenutno nam ta graf ne pove veliko, a bomo pri napredni analizi videli napredek gospodarstva in kaj lahko pričakujemo v prihodnosti.
+Zgoraj je narisano gibanje povprečnega BDP, kjer ne vemo kako to izgleda podrobneje po državah. Zato je spodaj prikazan interaktivni zemljevid Evrope, ki prikazuje dejanski BDP v € na prebivalca v državi.
+
+```{r zemljevid_evrope_BDP, echo=FALSE, message=FALSE, fig.align='center', warning = FALSE}
+zemljevid_evrope_BDP
+```
+
+Gibanje brezposelnosti v Evropi in drugih razvith državah je ponavadi omejeno na okoli 5%, a se ponavadi ne zavedamo kako visoka je lahko brezposelnost v ostalih državah. Na spodnjem zemljevidu prikažem, kako velike razlike so med razvitim in nerazvitim svetom. Za kar nekaj držav, predvsem afriških nimamo niti podatkov, a lahko predvidevamo, da je podatek podoben kot pri sosednjih državah.
+
+```{r brezposelnost_svet, echo=FALSE, message=FALSE, fig.align='center', warning = FALSE}
+brezposelnost_svet
 ```
 
 ***
@@ -96,20 +99,36 @@ Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
 
-```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-#ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
-#                                     skupina=factor(skupine)), by="obcina")
-#, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-#  ggtitle("Število naselij glede na površino občine") +
-#  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-#  guides(color=guide_legend(title="Skupina"),
-#         size=guide_legend(title="Prebivalci (* 1000)"))
+Pri napredni analizi podatkov sem se odločil, da bom analiziral evropske države in jih razdelil v 5 skupin glede na naslednje podatke:
+
+1. `Zadovoljstvo` - Meritev zadovoljstva prebivalcev evropskih držav,
+
+2. `BDP` - podatki o realnem BDP na prebivalca v letu 2018,
+
+3. `Brezposelnost` - Najnovejši podatki o brezposelnosti države,
+
+4. `Število prebivalcev` - Najnovejši podatki o številu prebivalcev.
+
+
+```{r graf, echo=FALSE, fig.align='center', message=FALSE, fig.cap='Povezava med številom naselij in površino občine', warning = FALSE}
+cluster
 ```
-halo halo halo
+
+Trije od štirih podatkov so podatki o "naprednosti" držav in cluster Slovenijo uvršča v skupino z Avstrijo, Veliko Britanijo, Nizozemsko, Dansko, Švedsko in Finsko.
+
+Kot sem povedal prej nam graf s podatki o povprečnem BDP na prebivalca za leta 2013-2018 ne pove veliko, če ga ne analiziramo.
+V spodnjem grafu je prikazana analiza povprečnega BDP na prebivalca za Evropo in za Slovenijo in pričakovano gibanje v prihodnosti.
+Uporabil sem linearno regresijsko funkcijo, saj je ta glede na podatke najbolj primerna.
+
+```{r napovedvanje, echo=FALSE, message=FALSE, fig.align='center', warning = FALSE}
+print(napovedovanje)
+```
+
+Vidimo, da smo pod evropskim povprečjem in lahko rečemo, da naš BDP narašča približno enako hitro, kar ni najbolje saj bi praviloma morali hitreje napredovati. Ker se pri napovedi za Evropo gleda povprečje večih držav je tudi napoved bolj natančna, kar se tudi vidi na grafu.
+
 ***
 
 ```{r shiny, echo=FALSE}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+shinyAppDir("shiny", options=list(width="100%", height=600))
 ```

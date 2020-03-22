@@ -21,6 +21,7 @@ cluster_evropa <- function(){
   tmap_mode('view')
   return(zemljevid)
 }
+cluster <- cluster_evropa()
 
 
 # GRAF KI PRIKAZUJE GIBANJE REALNEGA BDP SLOVENIJE TER EVROPE NA PREBIVALCA IN NAPOVEDUJE PRIHODNOST
@@ -36,17 +37,22 @@ napovedovanje_BDP <- function(){
   bdp_po_letih_slo <- bdp_po_letih_slo %>% rename(x = 'BDP per capita')
   bdp_po_letih_slo$x <- as.numeric(bdp_po_letih_slo$x)
   bdp_po_letih_slo$leto <- as.numeric(bdp_po_letih_slo$leto)
-  bdp_po_letih_slo$z <- 'slovenia'
+  bdp_po_letih_slo$z <- 'slovenija'
   
   bdp_po_letih <- rbind(bdp_po_letih_eu, bdp_po_letih_slo)
+  colnames(bdp_po_letih)[3] <- "Legenda"
   
-  h <- ggplot(bdp_po_letih, aes(leto, x, shape=z, colour=z, fill=z)) +
-    geom_smooth(method="lm") +
-    geom_point(size=3) +
-    fte_theme() +
-    xlab("Leto") +
-    ylab("BDP na prebivalca v €") +
-    ggtitle("Gibanje realnega BDP na prebivalca") + 
-    scale_x_continuous(breaks = 2013:2020)
+  h <- ggplot(bdp_po_letih, aes(leto, x, shape=Legenda, colour=Legenda, fill=Legenda)) +
+        geom_smooth(method="lm", fullrange=TRUE) +
+        geom_point(size=3) +
+        fte_theme() +
+        xlab("Leto") +
+        ylab("€") +
+        ggtitle("Gibanje realnega BDP v € na prebivalca") +
+        scale_x_continuous(breaks = 2013:2022) +
+        expand_limits(x = 2020) +
+        geom_hline(yintercept=0, size=0.4, color="black") +
+        theme(legend.position="right")
   return(h)
 }
+napovedovanje <- napovedovanje_BDP()

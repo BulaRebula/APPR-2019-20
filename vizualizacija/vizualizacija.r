@@ -2,14 +2,16 @@
 
 # ZEMLJEVID SVETA S PODATKI O BREZPOSELNOSTI
 
-brezposelnost.svet <- function(){
-  podatki <- uvozi.svet()
-  zaposlenost <- uvozi.zaposlenost()
-  podatki2 <- merge(podatki,zaposlenost, by = c("name"), all=TRUE)
-  svet <- tm_shape(podatki2) + tm_polygons("Brezposelnost")
-  return(svet)
+brezposelnost_svet <- function(){
+  svet <- uvozi.svet()
+  brezposelnost <- uvozi.zaposlenost()
+  podatki <- merge(y = brezposelnost,x = svet, by.x='name', by.y = 'name')
+  podatki %>% select(name, 'Brezposelnost')
+  svet2 <- tm_shape(podatki) + tm_polygons('Brezposelnost')
+  tmap_mode('view')
+  return(svet2)
 }
-brezposelnost.svet <- brezposelnost.svet()
+brezposelnost_svet <- brezposelnost_svet()
 
 
 # HISTOGRAM ZADOVOLJSTVA PREBIVALCEV ZA LETO 2013 IN 2018
@@ -26,7 +28,8 @@ zadovoljstvo_2013 <- function(){
                          x="Ocena zadovoljstva", y="Število držav") +
                     scale_x_continuous(breaks = seq(0,10, by=0.5), limits = c(4.5,9)) +
                     scale_y_continuous(breaks = seq(0,26, by=2), limits = c(0,12)) + 
-                    geom_hline(yintercept=0, size=0.4, color="black")
+                    geom_hline(yintercept=0, size=0.4, color="black") + 
+                    geom_vline(xintercept=mean(stare_ocene$Ocena))
   return(histogram)
 }
 zadovoljstvo_2013 <- zadovoljstvo_2013()
@@ -44,7 +47,8 @@ zadovoljstvo_2018 <- function(){
          x="Ocena zadovoljstva", y="Število držav") +
     scale_x_continuous(breaks = seq(0,10, by=0.5), limits = c(4.5,9)) +
     scale_y_continuous(breaks = seq(0,26, by=2), limits = c(0,12)) + 
-    geom_hline(yintercept=0, size=0.4, color="black")
+    geom_hline(yintercept=0, size=0.4, color="black") +
+    geom_vline(xintercept=mean(nove_ocene$Ocena))
   return(histogram)
 }
 zadovoljstvo_2018 <- zadovoljstvo_2018()
@@ -60,7 +64,7 @@ gibanje_BDP <- function(){
     geom_point(color="#c0392b") +
     ylim(20000, 30000)+
     fte_theme() +
-    labs(x="Leto", y="Realni BDP v €", title="Realni povprečni BDP V € na prebivalca v Evropi")
+    labs(x="Leto", y="Realni BDP v €", title="Realni povprecni BDP v € na prebivalca v Evropi")
   return(g)
 }
 gibanje_BDP <- gibanje_BDP()
