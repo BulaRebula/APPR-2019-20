@@ -2,20 +2,20 @@
 
 cluster_evropa <- function(){
   evropa1 <- uvozi.svet() %>% filter (continent == 'Europe')
-  zadovoljstvo <- uvozi.rating()
-  brezposelnost <- uvozi.zaposlenost()
+  zadovoljstvo <- uvozi.rating() %>% filter(leto == 2018)
+  brezposelnost_cluster <- uvozi.zaposlenost()
   bdp <- uvozi.BDP() %>% filter(leto == 2018) %>% select('Drzava', 'BDP per capita')
-  evropa2 <- inner_join(x = evropa1, y = zadovoljstvo, by = c('sovereignt'='Drzava'))
-  evropa3 <- inner_join(x = evropa2, y = brezposelnost, by = c('sovereignt'='name'))
-  evropa4 <- inner_join(x = evropa3, y = bdp, by = c('sovereignt'='Drzava'))
-  podatki_cluster <- evropa4 %>% filter (leto == 2018) %>% select('sovereignt', 'pop_est','BDP per capita', 'Ocena','Brezposelnost')
+  evropa2 <- merge(x = evropa1, y = zadovoljstvo, by.y = 'Drzava', by.x = 'name')
+  evropa3 <- merge(x = evropa2, y = brezposelnost_cluster, by.y = 'name', by.x = 'name')
+  evropa4 <- merge(x = evropa3, y = bdp, by.y = 'Drzava', by.x = 'name')
+  podatki_cluster <- evropa4 %>% filter (leto == 2018) %>% select('name', 'pop_est','BDP per capita', 'Ocena','Brezposelnost')
   podatki_cluster2 <- podatki_cluster
   podatki_cluster$geometry = NULL
-  cluster <- podatki_cluster %>% select(-sovereignt) %>% scale()
-  rownames(cluster) <- podatki_cluster$sovereignt
+  cluster <- podatki_cluster %>% select(-name) %>% scale()
+  rownames(cluster) <- podatki_cluster$name
   k <- kmeans(cluster, 5, nstart=1000)
-  skupine <- data.frame(sovereignt=podatki_cluster2$sovereignt, skupina=factor(k$cluster))
-  podatki_za_risat <- merge(podatki_cluster2, skupine, by ='sovereignt')
+  skupine <- data.frame(name=podatki_cluster2$name, skupina=factor(k$cluster))
+  podatki_za_risat <- merge(podatki_cluster2, skupine, by ='name')
   zemljevid <- tm_shape(podatki_za_risat) + tm_polygons('skupina')
   zemljevid
   tmap_mode('view')

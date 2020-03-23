@@ -15,7 +15,7 @@ uvozi.rating <- function() {
   data$Drzava[data$Drzava == 'Germany (until 1990 former territory of the FRG)'] <- 'Germany'
   return(data)
 }
-Zadovoljstvo <- uvozi.rating()
+Zadovoljstvo_skupaj <- uvozi.rating()
 
 
 # UVOZ TABELE Z BDP
@@ -36,6 +36,7 @@ uvozi.zaposlenost <- function(){
   stran <- html_session(link) %>% read_html()
   stran <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>% .[[1]] %>% html_table(dec=",") %>%
     transmute(name=`Name of Countries`, Brezposelnost=parse_number(`Unemployment rate (%)`))
+  stran[47, 1] <- "Czechia"
   return(stran)
 }
 Brezposelnost <- uvozi.zaposlenost()
@@ -44,6 +45,7 @@ Brezposelnost <- uvozi.zaposlenost()
 
 uvozi.svet <- function(){
   World <- ne_countries(scale = "medium", returnclass = "sf")
+  World[57, 18] <- "Czechia"
   return(World)
 }
 svet <- uvozi.svet()
